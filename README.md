@@ -9,3 +9,19 @@
 -I believe, once I found the security vulnerabilities, that I did well with explaining each vulnerability, what it is and solutions to them. It is important to have secure code since hackers can take advantage of the application by taking user data. If the user data is compromised, it is bad for the safety of the customers. Software security adds to a company's wellbeing since no one would want to use an application that has security issues like suceptibility to attacks. Artemis Financial would have no customers if they did not have security for their platform and therefore it would cause the company to fail. 
 
 -- What part of the vulnerability assessment was challenging or helpful to you?
+
+-The most challenging part about the vulnerability assessment was learning how to suppress false positives. I did not have to do it for project 2 but for module 6 I struggled a bit to get some vulnerabilities to not show up anymore. But I think the assessment was super helpful in guiding me into what vulnerabilities that needed to be addressed. 
+
+-- How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+
+-I first started with using a certificate. I generated a self-signed certificate so that the application would be secure immediately after I deployed it. Then, I used a algorithm cipher called SHA-256 to add message digesting to the application so that I could test if the data was being protected correctly. Lastly I ran a vulnerability test on the application before rendering and then after rendering to check if I had introduced any new vulnerabilities into the application. 
+
+-- How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+
+-
+
+-- What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+
+-
+
+-- Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
