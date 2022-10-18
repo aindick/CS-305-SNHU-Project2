@@ -25,3 +25,4 @@
 - The OWASP dependecy checker was a helpful resource when it came to checking for vulnerabilities. The NVD website was very helpful also with finding out more information on each vulnerability. I can see myself using both of these tools again in the future for sure.
 
 -- Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+-  I worked very hard on the certificate part and am so proud of myself for getting it to work properly along with the SHA-256 algorithm since it shows I can properly use a checksum algorithm to hash data. I would also be proud of showing off that I do know how to use a vulnerability checker to find issues and how to mitigate them. These are what I'd want employers to see from the work I did in CS 305. 
