@@ -14,11 +14,11 @@
 
 -- How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
 
--I first started with using a certificate. I generated a self-signed certificate so that the application would be secure immediately after I deployed it. Then, I used a algorithm cipher called SHA-256 to add message digesting to the application so that I could test if the data was being protected correctly. Lastly I ran a vulnerability test on the application before rendering and then after rendering to check if I had introduced any new vulnerabilities into the application. 
+-I first started with using a certificate. I generated a self-signed certificate so that the application would be secure immediately after I deployed it. Then, I used a algorithm cipher called SHA-256 to add message digesting to the application so that I could test if the data was being protected correctly. Lastly I ran a vulnerability test on the application before rendering and then after rendering to check if I had introduced any new vulnerabilities into the application. I woukd use the OWASP vulnerability dependency again to assess vulnerabilities because the dependency gave a clean, easy to read view of what vulnerabilities needed to be mitigated. 
 
 -- How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
 
--
+-First, I ran the code without an refactoring just to see what vulnerabilities were already there. Then, I implemented the SHA-256 algorithm but didn't make a certificate yet nor change the application.properties file yet and ran the program again to make sure no errors or new vulnerabilities showed up. Lastly, I then changed the application.properties files to include the keystore information for the certificate and ran it once more to check for new vulnerabilities. I checked the vulnerabilities through the OWASP dependency-check file that was provided and made sure the 77 vulnerabilities I found did not increase.
 
 -- What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
 
